@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BookMart</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Howdy User!</string>
+    <string name="motto">"There is no friend as loyal as a book.”\n-Ernest Hemingway</string>
+    <string name="about">BookMart is a second hand book store where you can find used books at a resonable price.
+    Just sign up for the BookMart account and there you go!</string>
+    <string name="devs">Suman Shrestha \nSuyoj Man Tamrakar</string>
+    <string name="developedby">Developed By:</string>
+    <string name="version">Bookmart\nVersion:1.0.0</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="lp">‘के हो ठुलो जगतमा?’ ‘पसिना विवेक’
+‘उद्देश्य के लिनु?’ ‘उडि छुनु चन्द्र एक।’\n-लक्ष्मी प्रसाद देवकोटा</string>
+
+    <string name="bhupi">
+घुम्ने मेचमाथि अन्धो मान्छे\n-भूपी शेरचन</string>
+
+
+    <string name="q1">Q: What is BookMart?\n
+        A: BookMart is the online second hand book store.</string>
+        <string name="q2">Q: What kinds of books are available here?\n
+        A: This app is developed mostly focusing the used course books. Despite this, non
+            fiction genre books are also available.</string>
+        <string name="q3">Q: Are there any hidden charges to use this app?\n
+        A: No. This app is totally free for all. All you need to do is to sign up.</string>
+</resources>

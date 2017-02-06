@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bm"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.bookmart.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/grad2">
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lp"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="#17202A"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/grad2">
+
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="98dp"
+            android:src="@drawable/bhupi"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bhupi"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="#17202A"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/content_frame">
+    </FrameLayout>
+
+</RelativeLayout>
