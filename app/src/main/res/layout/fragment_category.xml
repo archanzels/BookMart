@@ -16,7 +16,7 @@
 
         <ImageButton
             style="@style/CatImg"
-            android:background="@drawable/fic" />
+            android:background="@drawable/category_fic" />
 
         <TextView
             style="@style/CatText"
@@ -24,7 +24,7 @@
 
         <ImageButton
             style="@style/CatImg"
-            android:background="@drawable/travel" />
+            android:background="@drawable/category_travel" />
 
         <TextView
             style="@style/CatText"
@@ -32,7 +32,7 @@
 
         <ImageButton
             style="@style/CatImg"
-            android:background="@drawable/bio" />
+            android:background="@drawable/category_bio" />
     </LinearLayout>
 
     <LinearLayout
@@ -46,7 +46,7 @@
 
         <ImageButton
             style="@style/CatImg"
-            android:background="@drawable/cou" />
+            android:background="@drawable/category_cou" />
 
         <TextView
             style="@style/CatText"
@@ -54,7 +54,7 @@
 
         <ImageButton
             style="@style/CatImg"
-            android:background="@drawable/rel" />
+            android:background="@drawable/category_rel" />
 
         <TextView
             style="@style/CatText"
@@ -62,7 +62,7 @@
 
         <ImageButton
             style="@style/CatImg"
-            android:background="@drawable/gui" />
+            android:background="@drawable/category_gui" />
 
     </LinearLayout>
 

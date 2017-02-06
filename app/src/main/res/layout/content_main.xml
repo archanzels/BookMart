@@ -15,58 +15,83 @@
     tools:showIn="@layout/app_bar_main">
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@drawable/grad2">
-
-        <ImageView
-            android:layout_marginTop="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/lp"
-            android:layout_marginLeft="5dp"
-            />
+        android:layout_height="wrap_content"
+        android:background="#336b87"
+        android:orientation="horizontal">
 
         <TextView
-            android:layout_marginTop="25dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/lp"
+            android:padding="3dp"
+            android:text="QUOTE OF THE DAY"
             android:textAlignment="center"
-            android:textSize="16dp"
-            android:textColor="#17202A"/>
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            android:typeface="sans" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:orientation="horizontal"
-        android:layout_marginTop="120dp"
-        android:background="@drawable/grad2">
+        android:layout_marginTop="40dp"
+        android:background="@drawable/side_nav_bar"
+        android:orientation="horizontal">
 
 
         <ImageView
-            android:layout_marginTop="5dp"
             android:layout_width="100dp"
             android:layout_height="98dp"
-            android:src="@drawable/bhupi"
             android:layout_marginLeft="5dp"
-            />
+            android:layout_marginTop="5dp"
+            android:src="@drawable/slider_bhupi" />
 
         <TextView
-            android:layout_marginTop="25dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
             android:text="@string/bhupi"
             android:textAlignment="center"
-            android:textSize="16dp"
-            android:textColor="#17202A"
-            android:layout_marginLeft="10dp"/>
-    </LinearLayout>    <FrameLayout
+            android:textColor="#FFF"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/content_frame">
-    </FrameLayout>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:background="#336b87"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="@string/sotm"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/sotm" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
 
 </RelativeLayout>

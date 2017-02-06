@@ -9,29 +9,45 @@
 
 
     <ImageButton
-        android:id="@+id/fb"
+        android:id="@+id/social_fb"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="112dp"
+        android:background="@color/bm"
         android:scaleType="centerCrop"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fb" />
+        app:srcCompat="@drawable/social_fb" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/social_tw"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginLeft="112dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginRight="32dp"
         android:layout_marginStart="112dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="112dp"
+        android:background="@color/bm"
         android:scaleType="centerCrop"
-        app:layout_constraintLeft_toRightOf="@+id/imageButton"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintLeft_toRightOf="@+id/social_fb"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/tw" />
+        app:srcCompat="@drawable/social_tw" />
+
+    <ImageButton
+        android:id="@+id/social_ig"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="192dp"
+        android:background="@color/bm"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/social_fb"
+        app:layout_constraintRight_toRightOf="@+id/social_tw"
+        app:srcCompat="@drawable/social_ig" />
+
 </android.support.constraint.ConstraintLayout>
