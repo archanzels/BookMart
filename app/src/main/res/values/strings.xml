@@ -28,4 +28,12 @@
             fiction genre books are also available.</string>
         <string name="q3">Q: Are there any hidden charges to use this app?\n
         A: No. This app is totally free for all.</string>
+
+    <string name="book_info">
+        The Alchemist is a novel by Brazilian author Paulo Coelho which was first published in 1988. Originally written in Portuguese, it has been translated into at least 69 languages as of December 2016.\n\n
+        <b>Originally published:</b> 1988\n
+    <b>Author: </b>Paulo Coelho\n
+   <b> Original language:</b> Portuguese\n
+    <b>ISBN:</b> 0-06-250217-4\n
+    </string>
 </resources>
