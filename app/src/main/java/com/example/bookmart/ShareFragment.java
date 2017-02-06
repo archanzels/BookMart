@@ -17,7 +17,7 @@ public class ShareFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        myView= inflater.inflate(R.layout.fragment_about, container, false);
+        myView = inflater.inflate(R.layout.fragment_share, container, false);
         return myView;
     }
 }
