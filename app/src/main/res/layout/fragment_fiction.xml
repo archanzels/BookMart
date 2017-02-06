@@ -6,34 +6,34 @@
     android:orientation="horizontal">
 
     <LinearLayout
-        android:layout_width="150dp"
+        android:layout_width="160dp"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <TextView
-            style="@style/CatText"
-            android:text="Fiction" />
+            style="@style/FictionText"
+            android:text="The Alchemist" />
 
         <ImageButton
-            android:id="@+id/category_fic"
+            android:id="@+id/fic1"
             style="@style/CatImg"
-            android:background="@drawable/category_fic" />
+            android:background="@drawable/fic6" />
 
         <TextView
-            style="@style/CatText"
-            android:text="Non-Fiction" />
+            style="@style/FictionText"
+            android:text="Harry Potter" />
 
         <ImageButton
             style="@style/CatImg"
-            android:background="@drawable/category_travel" />
+            android:background="@drawable/fic5" />
 
         <TextView
-            style="@style/CatText"
-            android:text="Biography" />
+            style="@style/FictionText"
+            android:text="दमिनी भीर​" />
 
         <ImageButton
             style="@style/CatImg"
-            android:background="@drawable/category_bio" />
+            android:background="@drawable/fic4" />
     </LinearLayout>
 
     <LinearLayout
@@ -42,28 +42,28 @@
         android:orientation="vertical">
 
         <TextView
-            style="@style/CatText"
-            android:text="Course" />
+            style="@style/FictionText"
+            android:text="अर्को ओरालो" />
 
         <ImageButton
             style="@style/CatImg"
-            android:background="@drawable/category_cou" />
+            android:background="@drawable/fic3" />
 
         <TextView
-            style="@style/CatText"
-            android:text="Religion-Culture" />
+            style="@style/FictionText"
+            android:text="Blue Mimosa" />
 
         <ImageButton
             style="@style/CatImg"
-            android:background="@drawable/category_rel" />
+            android:background="@drawable/fic2" />
 
         <TextView
-            style="@style/CatText"
-            android:text="Guide" />
+            style="@style/FictionText"
+            android:text="Palpasa Cafe" />
 
         <ImageButton
             style="@style/CatImg"
-            android:background="@drawable/category_gui" />
+            android:background="@drawable/fic1" />
 
     </LinearLayout>
 
